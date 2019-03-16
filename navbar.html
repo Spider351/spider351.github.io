@@ -1,0 +1,57 @@
+<div class="uk-card uk-card-secondary uk-card-body  uk-height-1-1">
+        <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+            <li class="uk-nav-header">Menú</li>
+            <li><a href="index.html">Inicio</a></li>
+            <li class="uk-parent">
+                <a href="#">Categorías</a>
+                <ul class="uk-nav-sub">
+                    <li><a href="venta.html">Vender</a></li>
+                    <li><a href="#">Categoría 1</a></li>
+                    <li><a href="#">Categoría 2</a></li>
+                    <li><a href="#">Categoría 3</a></li>
+                </ul>
+            </li>
+            <li class="uk-nav-divider"></li>
+            <li><a href="#modalUsuario" uk-toggle>Iniciar Sesión</a></li>
+            <li class="uk-parent">
+                <a href="#">Perfil</a>
+                <ul class="uk-nav-sub">
+                    <li><a href="perfil.html#info">Información</a></li>
+                    <li><a href="perfil.html#histo">Historial</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <div id="modalUsuario" class="uk-modal-container" uk-modal>
+                <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                    <h2 class="uk-modal-title uk-text-center">Inicio de Sesión</h2>
+                    <div class="uk-column-1-2 uk-column-divider">
+                        <form class="uk-text-center">
+                            <div class="uk-margin">
+                                <div class="uk-inline">
+                                    <span class="uk-form-icon" uk-icon="icon: user"></span>
+                                    <input class="uk-input" type="text" placeholder="Usuario">
+                                </div>
+                            </div>
+                            <div class="uk-margin">
+                                <div class="uk-inline">
+                                    <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: lock"></span>
+                                    <input class="uk-input" type="text" placeholder="Contraseña">
+                                </div>
+                            </div>
+                        </form>
+                        <p class="uk-text-center">
+                                    <button class="uk-button uk-button-default uk-modal-close" type="button">Cancelar</button>
+                                    <button class="uk-button uk-button-primary" type="button">Iniciar Sesión</button>
+                        </p>
+                        
+                        <br>
+                        <p class="uk-text-center">Aún no te has registrado?</p>
+                        <p class="uk-text-center">
+                                <a class="uk-button uk-button-primary" href="registro.html">Registrarse</a>
+                        </p>
+                    </div>
+                </div>
+        </div>
+</div>
